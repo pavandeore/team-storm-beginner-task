@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Speed Page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		*{
+			font-family: arial;
+			color: #252525;
+		}
+		ul li{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+			color: #252525;
+		}
+		main{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+		}
+		img{
+			height: auto;
+			width: 100%;
+			max-width: 200px;
+
+		}
+		.heading{
+			font-size: 47px;
+			font-weight: 780;
+			padding: 0px;
+			margin: -10px 0px 0px 0px;
+		}
+		.big-text{
+			padding: 0px;
+			margin: 0px;
+			font-size: 100px;
+			font-weight: 530;
+
+		}
+		sup{
+			font-size: 47px;
+			font-weight: 550;
+		}
+		.sub-list{
+			display: grid;
+			grid-template-columns: 33% 33% 33%;	
+			border: 1px solid black;
+			padding: 10px;
+			border-radius:  5px;
+		}
+		table{
+			text-align: left;
+		}
+		table th{
+			width: 150px;
+		}
+		.social-icons {
+			margin-top: -5px;
+			display: grid;
+			font-size: 45px;
+			grid-template-columns: 33% 33% 33%;	
+		}
+		.social-icons li{
+			width: 50px;
+		}
+		
+	</style>
+</head>
+<body>
+<main>
+<div class="a">
+	<img src="speedimage.png" />
+	<p class="heading">FAST</p>
+</div>
+<div>
+	<!-- Speed Div -->
+	
+	<p style="font-size: 22px; padding: 10px; margin: 0px;"><strong>Your Internet speed is</strong></p>
+	<p class="big-text">4.2<sup>Mbps</sup></p>
+</div>
+<div>
+	<!-- Information Div -->
+	<table>
+			<tr>
+				<th style="border-bottom: 1px solid black;">Latency</th>
+				<th style="border-bottom: 1px solid black;"></th>
+				<th style="border-bottom: 1px solid black;">Upload</th>
+			</tr>
+			<tr>
+				<td>Uploaded</td>
+				<td>Loaded</td>
+				<td>Speed</td>
+			</tr>
+			<tr>
+				<td><strong>98 </strong><sub>ms</sub></td>
+				<td><strong>186 </strong><sub>ms</sub></td>
+				<td><strong>2.3 </strong><sub>Mbps</sub></td>
+			</tr>
+	</table>
+	<div>
+		<p><strong>Client</strong> Lagos, NG 102.68.70.10 <strong>Server(s)</strong> London, GB | Milan, IT</p>
+		<ul class="sub-list">
+			<li><i class="fa fa-gear"></i> Setting</li>
+			<li>6.1MB <i class="fa fa-download"></i></li>
+			<li>9.2MB <i class="fa fa-upload"></i></li>
+		</ul>
+	</div>
+</div>
+<div>
+	<!-- Social Div -->
+	<ul class="social-icons">
+		<li><a href="#" class="fa fa-question-circle"></a></li>
+		<li><a href="#" class="fa fa-facebook"></a></li>
+		<li><a href="#" class="fa fa-twitter"></a></li>
+	</ul>
+</div>
+</main>
+</body>
+</html>
